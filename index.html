@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style .css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist">
+        <h1>Best of Imagine Dragons</h1>
+        <div class="songitemcontainer">
+            <div class="songitem">
+                <img alt="1">
+                <span class="songName">Enemy</span>
+                <span class="songlistplay"><span class="timestamp">05:34<i id="0" class="fa-solid songitemPlay fa-circle-play"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img alt="1">
+                <span class="songName">Believer</span>
+                <span class="songlistplay"><span class="timestamp">05:34<i id="1" class="fa-solid songitemPlay fa-circle-play"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img alt="1">
+                <span class="songName">Demons</span>
+                <span class="songlistplay"><span class="timestamp">05:34<i id="2" class="fa-solid songitemPlay fa-circle-play"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img alt="1">
+                <span class="songName">Natural</span>
+                <span class="songlistplay"><span class="timestamp">05:34<i id="3" class="fa-solid songitemPlay fa-circle-play"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img alt="1">
+                <span class="songName">Warriors</span>
+                <span class="songlistplay"><span class="timestamp">05:34<i id="4" class="fa-solid songitemPlay fa-circle-play"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img alt="1">
+                <span class="songName">Radioactive</span>
+                <span class="songlistplay"><span class="timestamp">05:34<i id="5" class="fa-solid songitemPlay fa-circle-play"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img alt="1">
+                <span class="songName">Bones</span>
+                <span class="songlistplay"><span class="timestamp">05:34<i id="6" class="fa-solid songitemPlay fa-circle-play"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img alt="1">
+                <span class="songName">Thunder</span>
+                <span class="songlistplay"><span class="timestamp">05:34<i id="7" class="fa-solid songitemPlay fa-circle-play"></i></span></span>
+            </div>
+        </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="ProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i id="previous" class="fa-solid fa-backward"></i>
+            <i class="fa-regular fa-circle-play" id="masterPlay"></i>
+            <i id="next" class="fa-solid fa-forward"></i>
+        </div>
+        <div class="songinfo">
+            <img src="soundtrack.gif" width="39px" alt="" id="gif"><span id="masterSongName"></span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/b9f1ddb574.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
